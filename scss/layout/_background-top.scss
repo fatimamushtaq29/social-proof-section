@@ -1,0 +1,12 @@
+@use '../abstracts/' as *;
+
+.bg-top {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: clamp(23.438rem, 40vw, 64.889rem);
+    height: clamp(14.5rem, 11.6391rem + 12.2066vw, 22.625rem);
+    @include mediaQuery(laptop) {
+        height: clamp(17.5rem, 45.25vh, 61.086rem);
+    }
+}

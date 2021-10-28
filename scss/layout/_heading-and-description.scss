@@ -1,0 +1,42 @@
+@use '../abstracts/' as *;
+
+.hero-rating-container {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    @include flexCenter(column);
+    @include mediaQuery(laptop) {
+        flex-direction: row;
+        margin: 0 auto;
+        max-width: 69.375rem;
+        justify-content: space-between;
+    }
+}
+
+.hero {
+    &-container {
+        margin-bottom: 2.25rem;
+        @include mediaQuery(laptop) {
+            margin-bottom: 0;
+            text-align: left;
+            margin-right: 2rem;
+            max-width: 27.813rem;
+        }
+    }    
+    &-heading {
+        font-weight: weight(bold);
+        font-size: clamp(2rem, 1.648rem + 1.502vw, 3rem);
+        color: $primary-dark-magenta;
+        letter-spacing: -0.071rem;
+    }
+    &-info {
+        font-weight: weight(medium);
+        font-size: 0.938rem;
+        color: $dark-grayish-magenta;
+        line-height: 1.563rem;
+        letter-spacing: -0.031rem;
+        margin-top: 1.125rem;
+        @include mediaQuery(laptop) {
+            color: $primary-dark-magenta;
+        }
+    }
+}

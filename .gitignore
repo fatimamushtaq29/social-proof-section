@@ -1,0 +1,8 @@
+*.sketch
+*.xd
+*.fig
+.DS_Store
+/node_modules
+/social-proof-section-figma
+style-guide.md
+/design
