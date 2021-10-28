@@ -4,7 +4,7 @@ body {
     font-family: 'Spartan', sans-serif;
     text-align: center;
     min-height: 100vh;
-    background: no-repeat bottom url("../../images/bg-pattern-bottom-desktop.svg");
+    background: no-repeat bottom url("/images/bg-pattern-bottom-desktop.svg");
     @include mediaQuery(laptop) {
         @include flexCenter(row); 
     }
