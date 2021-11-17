@@ -7,6 +7,7 @@ This is a solution to the [Social proof section challenge on Frontend Mentor](ht
 - [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
+  - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
@@ -25,6 +26,11 @@ Users should be able to:
 
 Screenshot Mobile: ![](./screenshot-mobile.jpg)
 Screenshot Desktop: ![](./screenshot-desktop.jpg)
+
+### Links
+
+- Solution URL: [https://www.frontendmentor.io/solutions/responsive-social-proof-section-using-scss-dBSnXeUSC](https://www.frontendmentor.io/solutions/responsive-social-proof-section-using-scss-dBSnXeUSC)
+- Live Site URL: [https://fatimamushtaq29.github.io/social-proof-section/](https://fatimamushtaq29.github.io/social-proof-section/)
 
 ## My process
 
